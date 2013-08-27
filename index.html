@@ -4,310 +4,175 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon iphone-retina" href="">
 
     <title>Awesome Apps</title>
 
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./apps.css" rel="stylesheet">
     
-    <style type="text/css">
-    
-    body {
-        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAQACAIAAAAP+8yGAAACoklEQVR4Xu3dwQ0CMQxEUTtKvbRCC3RqjtwR3g3WSwP/MDOObaIlH89XdJ4VzQcAACBiZzcgMvs1AAAAAFCu3WiR3YCYcKMBACh2AKopgFJBA7Xoo4Fip1TQAEAtkmQASXZlalsAJLk/aC59AICdSQNJ7ge4DwRN0ORAbypociAHgsamliHWmlwkB7oKnZ0caH7lQA40v3LApmqRHPiBAsBCSvsOYCHFpuZkfZEcsCmbsqn2/XSbchGAHLApm3q9D6Cz07YAaB19oZWLaCAHbHoiwBf52BRADtiUTb1KAJAD384B8Gkbzx4APOyWAwAjlKCx6eQky4GgyYGgCZocAAiapSCAoLkPJBnA03QASZZkGgAoFVpHczKAWmQIVIsAAOxNARQ7AAB9kUEcQLn+/gCopgAAbjQ3Gg1cOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANV8aAAAAADwi7Pr/5+DVt2tAQAAgGK3I6oZUANEBgDQtigVACFoYQBhUwBBEzQAORA0NmVTOWBTADYlMptyEQCbEhnAOzsALjpPA88e6rJ3FUTmIi7Sm3IRF3ERkS1miaxUEFmpILJSURN6UyIT2QhlALHxIjKRiUxk+yKTPpGJbNInMpEN4sMARAawDBG06SIL2goi21UIGpFpcJlNjbFENuEQmQY0MGUaQEyZRBY0QRM0U6YpkwZEFjTrHFMmDTS/RCayKdOUacoUNH+4I2hENmX2AIhMZGMskWlgjCUyke2LNF5EJjINiExkGy8bL8uQCSIbxIlspcZFJn0iE1mpsEogsjGWi7iIi4jMRVzERfamAJaC52sAwEUANl5sCsCmXGRG89e6bEoDOWBTADmQAwBBk4MRAABJFjQAAIBqPvdrAPAGv7GBbaSCtb0AAAAASUVORK5CYII=");
-    background-attachment: fixed;
-    background-size: contain;
-    }
-    
-    .icon {
-        height: 144px;
-        width: 144px;
-        text-align: center;
-        border-radius: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        background-color: white;
-    }
-    
-    .icon p {
-        font-size: 132px;
-        position: relative;
-        bottom: 20px;
-    }
-    
-    .icon-twitter {
-        color:#00acee;
-    }
-    
-    .twitter-icon {
-        background-color: white;
-    }
-    
-    .facebook-icon p {
-        bottom:8px;
-        right: 20px;
-        text-align: right;
-    }
-    
-    .icon-facebook {
-        color: white;
-    }
-    
-    .facebook-icon {
-        background:    -moz-linear-gradient(90deg,  #3b5998 0%, #9daccb 100%);
-        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#3b5998), color-stop(100%,#9daccb));
-        background: -webkit-linear-gradient(90deg,  #3b5998 0%,#9daccb 100%); 
-        background:      -o-linear-gradient(90deg,  #3b5998 0%,#9daccb 100%); 
-        background:     -ms-linear-gradient(90deg,  #3b5998 0%,#9daccb 100%); 
-        background:         linear-gradient(90deg,  #3b5998 0%,#9daccb 100%);
-    }
-    
-    .phone-icon p {
-        
-    }
-    
-    .icon-phone {
-        color: white;
-    }
-    
-    .icon-facetime-video {
-        color: white;
-        font-size: 108px;
-    }
-    
-    .icon-camera {
-        font-size: 108px;
-    }
-    
-    .green-icon {
-        background:    -moz-linear-gradient(90deg,  #00FF00 0%, #5AFF54 100%);
-        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#00FF00), color-stop(100%,#5AFF54));
-        background: -webkit-linear-gradient(90deg,  #00FF00  0%,#5AFF54 100%); 
-        background:      -o-linear-gradient(90deg,  #00FF00  0%,#5AFF54 100%); 
-        background:     -ms-linear-gradient(90deg,  #00FF00  0%,#5AFF54 100%); 
-        background:         linear-gradient(90deg,  #00FF00  0%,#5AFF54 100%);
-    }
-    
-    .metal-icon {
-        background:    -moz-linear-gradient(90deg,  #8C8C8C 0%, #F7F7F7  100%);
-        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#8C8C8C), color-stop(100%,#F7F7F7));
-        background: -webkit-linear-gradient(90deg,  #8C8C8C 0%,#F7F7F7  100%); 
-        background:      -o-linear-gradient(90deg,  #8C8C8C  0%,#F7F7F7  100%); 
-        background:     -ms-linear-gradient(90deg,  #8C8C8C  0%,#F7F7F7  100%); 
-        background:         linear-gradient(90deg,  #8C8C8C  0%,#F7F7F7  100%);
-    }
-    
-    .blue-icon {
-        background:    -moz-linear-gradient(90deg,  #5AE6FF 0%, #3264F4  100%);
-        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#5AE6FF), color-stop(100%,#3264F4));
-        background: -webkit-linear-gradient(90deg,  #5AE6FF 0%,#3264F4  100%); 
-        background:      -o-linear-gradient(90deg,  #5AE6FF  0%,#3264F4  100%); 
-        background:     -ms-linear-gradient(90deg,  #5AE6FF  0%,#3264F4  100%); 
-        background:         linear-gradient(90deg,  #5AE6FF  0%,#3264F4  100%);
-    }
-    
-    .blue-icon-inverse {
-        background:    -moz-linear-gradient(90deg,   #3264F4 0%, #5AE6FF  100%);
-        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#3264F4), color-stop(100%,#5AE6FF));
-        background: -webkit-linear-gradient(90deg,   #3264F4 0%, #5AE6FF  100%); 
-        background:      -o-linear-gradient(90deg,   #3264F4 0%, #5AE6FF  100%); 
-        background:     -ms-linear-gradient(90deg,   #3264F4 0%, #5AE6FF  100%); 
-        background:         linear-gradient(90deg,   #3264F4 0%, #5AE6FF  100%);
-    }
-    
-    .foursquare-icon {
-        color: #25a0ca;
-    }
-    
-    .dribbble-icon {
-        background-color: #ea4c89;
-        color:white;
-    }
-    
-    .weather-icon {
-        color: white;
-    }
-    
-    .dropbox-icon {
-        background-color: #3d9ae8;
-        color: white;
-    }
-    
-    .github-icon {
-        background-color: #171515;
-        color: white;
-    }
-    
-    .google-plus-icon {
-        background-color: #dd4b39;
-        color: white;
-    }
-    
-    .instagram-icon {
-        color: #3f729b;
-    }
-    
-    .linkedin-icon {
-        background-color: #0e76a8;
-        color: white;
-    }
-    
-    .pinterest-icon {
-        background-color:#c8232c;
-        color:white;
-    }
-    
-    .skype-icon {
-        background-color: #00aff0;
-        color: white;
-    }
-    
-    .youtube-icon {
-        background-color: #c4302b;
-        color: white;
-    }
-    
-    .tumblr-icon {
-        color: white;
-        background-color: #34526f;
-    }
-    
-    .weather-icon p,
-    .messages-icon p,
-    .camera-icon p,
-    .facetime-icon p,
-    .mail-icon p {
-        font-size: 108px;
-        bottom: 8px;
-    }
-    
-    .mail-icon {
-        color: white;
-    }
-    
-    .messages-icon {
-        color: white;
-    }
-    
-    
-    </style>
   </head>
 
   <body>
-
+  
+    <div class="container">
+    
     <div class="row">
-        <div class="col-xs-6 col-md-3">
-            <div class="icon twitter-icon"><p><i class="icon-twitter"></i></p></div>
+        <div class="col-xs-2">
+            <div class="icon green-icon iphone-standard"><p>A</p></div>
         </div>
-        <div class="col-xs-6 col-md-3">
-            <div class="icon facebook-icon"><p><i class="icon-facebook"></i></p></div>
+        <div class="col-xs-2">
+            <div class="icon blue-icon ipad-standard"><p>W</p></div>
         </div>
-        <div class="col-xs-6 col-md-3">
-            <div class="icon green-icon"><p><i class="icon-phone"></i></p></div>
+        <div class="col-xs-1">
+            <div class="icon green-icon settings-retina"><p>E</p></div>
         </div>
-        <div class="col-xs-6 col-md-3">
-            <div class="icon green-icon facetime-icon"><p><i class="icon-facetime-video"></i></p></div>
+        <div class="col-xs-2">
+            <div class="icon green-icon facetime-icon iphone-standard"><p>S</p></div>
+        </div>
+        <div class="col-xs-2">
+            <div class="icon red-icon ipad-standard"><p>O</p></div>
+        </div>
+        <div class="col-xs-1">
+            <div class="icon metal-icon iphone-standard"><p>M</p></div>
+        </div>
+        <div class="col-xs-2">
+            <div class="icon green-icon ipad-standard"><p>E</p></div>
+        </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-xs-3">
+            <div class="icon blue-icon settings-retina"><p>A</p></div>
+        </div>
+        <div class="col-xs-3">
+            <div class="icon red-icon ipad-standard"><p>P</p></div>
+        </div>
+        <div class="col-xs-3">
+            <div class="icon green-icon iphone-standard"><p>P</p></div>
+        </div>
+        <div class="col-xs-3">
+            <div class="icon green-icon ipad-standard"><p>S</p></div>
         </div>
     </div>
     
     <div class="row">
         <div class="col-xs-6 col-md-3">
-            <div class="icon camera-icon metal-icon"><p><i class="icon-camera"></i></p></div>
+            <div class="icon twitter-icon iphone-retina"><p><i class="icon-twitter"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon blue-icon weather-icon"><p><i class="icon-cloud"></i></p></div>
+            <div class="icon facebook-icon iphone-retina"><p><i class="icon-facebook"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon settings-icon metal-icon"><p><i class="icon-gear"></i></p></div>
+            <div class="icon green-icon iphone-retina"><p><i class="icon-phone"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon messages-icon green-icon"><p><i class="icon-comment"></i></p></div>
+            <div class="icon green-icon facetime-icon iphone-retina"><p><i class="icon-facetime-video"></i></p></div>
         </div>
     </div>
     
     <div class="row">
         <div class="col-xs-6 col-md-3">
-            <div class="icon mail-icon blue-icon"><p><i class="icon-envelope"></i></p></div>
+            <div class="icon camera-icon metal-icon iphone-retina"><p><i class="icon-camera"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon foursquare-icon"><p><i class="icon-foursquare"></i></p></div>
+            <div class="icon blue-icon weather-icon iphone-retina"><p><i class="icon-cloud"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon dribbble-icon"><p><i class="icon-dribbble"></i></p></div>
+            <div class="icon settings-icon metal-icon iphone-retina"><p><i class="icon-gear"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon dropbox-icon"><p><i class="icon-dropbox"></i></p></div>
+            <div class="icon messages-icon green-icon iphone-retina"><p><i class="icon-comment"></i></p></div>
         </div>
     </div>
     
     <div class="row">
         <div class="col-xs-6 col-md-3">
-            <div class="icon github-icon"><p><i class="icon-github"></i></p></div>
+            <div class="icon mail-icon blue-icon iphone-retina"><p><i class="icon-envelope"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon google-plus-icon"><p><i class="icon-google-plus"></i></p></div>
+            <div class="icon foursquare-icon iphone-retina"><p><i class="icon-foursquare"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon instagram-icon"><p><i class="icon-instagram"></i></p></div>
+            <div class="icon dribbble-icon iphone-retina"><p><i class="icon-dribbble"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon linkedin-icon"><p><i class="icon-linkedin"></i></p></div>
+            <div class="icon dropbox-icon iphone-retina"><p><i class="icon-dropbox"></i></p></div>
         </div>
     </div>
     
     <div class="row">
         <div class="col-xs-6 col-md-3">
-            <div class="icon pinterest-icon"><p><i class="icon-pinterest"></i></p></div>
+            <div class="icon github-icon iphone-retina"><p><i class="icon-github"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon skype-icon"><p><i class="icon-skype"></i></p></div>
+            <div class="icon google-plus-icon iphone-retina"><p><i class="icon-google-plus"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon youtube-icon"><p><i class="icon-youtube"></i></p></div>
+            <div class="icon instagram-icon iphone-retina"><p><i class="icon-instagram"></i></p></div>
         </div>
         <div class="col-xs-6 col-md-3">
-            <div class="icon tumblr-icon"><p><i class="icon-tumblr"></i></p></div>
+            <div class="icon linkedin-icon iphone-retina"><p><i class="icon-linkedin"></i></p></div>
         </div>
     </div>
     
-<article class="well" itemprop="mainContentOfPage"><h1>
-<a name="awesome-bootstrap-apps-" class="anchor" href="#awesome-bootstrap-apps-"><span class="octicon octicon-link"></span></a>Awesome Bootstrap Apps </h1>
-
-<p>I always had this little craving to mock-up an app spring board
-with some standard apps, just for some fun.</p>
-
-<p>I used <a href="http://getbootstrap.com">Bootstrap</a> and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> to make the actual icons,
-and <a href="http://brandcolors.net">BrandColors</a> for the, well, brand colors.</p>
-
-<p>Big thank you to <a href="http://www.maxcdn.com">MaxCDN</a> and their <a href="http://www.bootstrapcdn.com/#tab_fontawesome">Bootstrap CDN</a>.</p>
-
-<h2>
-<a name="how-to" class="anchor" href="#how-to"><span class="octicon octicon-link"></span></a>How to</h2>
-
-<ol>
-<li>Download, copy-paste, clone <code>apps.css</code>
-</li>
-<li>Add it to your HTML header.</li>
-<li>To make a Facebook icon appear, type <code>&lt;div class="icon facebook-icon"&gt;&lt;p&gt;&lt;i class="icon-facebook"&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;</code>.
-
-<ul>
-<li>  If you want LinkedIn, replace all instances of "facebook" with "linkedin".</li>
-</ul>
-</li>
-<li>Enjoy!</li>
-</ol><h2>
-<a name="to-do" class="anchor" href="#to-do"><span class="octicon octicon-link"></span></a>To do</h2>
-
-<ol>
-<li>SpringBoard CSS, Bootstrap-grid-like app spring board.</li>
-<li>Fix CSS gradients on mobile webkit devices.</li>
-<li>Make it compile with LESS and grabing all overlapping Font Awesome and BrandColors brands.</li>
-<li>Do all default iOS apps.</li>
-</ol></article>
+    <div class="row">
+        <div class="col-xs-6 col-md-3">
+            <div class="icon pinterest-icon iphone-retina"><p><i class="icon-pinterest"></i></p></div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <div class="icon skype-icon iphone-retina"><p><i class="icon-skype"></i></p></div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <div class="icon youtube-icon iphone-retina"><p><i class="icon-youtube"></i></p></div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <div class="icon tumblr-icon iphone-retina"><p><i class="icon-tumblr"></i></p></div>
+        </div>
+    </div>
+    
+    <article class="well" itemprop="mainContentOfPage"><h1>
+    <a name="awesome-bootstrap-apps-" class="anchor" href="#awesome-bootstrap-apps-"><span class="octicon octicon-link"></span></a>Awesome Apps </h1>
+    
+    <p>I always had this little craving to mock-up an app spring board
+    with some standard apps, just for some fun.</p>
+    
+    <p>These use Font Awesome and CSS to simulate app icons, and use Apple's various design sizes</p>
+    
+    <p>I used <a href="http://getbootstrap.com">Bootstrap</a> and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> to make the actual icons,
+    and <a href="http://brandcolors.net">BrandColors</a> for the, well, brand colors.</p>
+    
+    <p>Big thank you to <a href="http://www.maxcdn.com">MaxCDN</a> and their <a href="http://www.bootstrapcdn.com/#tab_fontawesome">Bootstrap CDN</a>.</p>
+    
+    <h2>
+    <a name="how-to" class="anchor" href="#how-to"></a>How to</h2>
+    
+    <ol>
+    <li>Download, copy-paste, clone <code>apps.css</code>
+    </li>
+    <li>Add it to your HTML header.</li>
+    <li>To make a Facebook icon appear, type <code>&lt;div class="icon facebook-icon iphone-retina"&gt;&lt;p&gt;&lt;i class="icon-facebook"&gt;&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;</code>.
+    
+    <ul>
+    <li>  If you want LinkedIn, replace all instances of "facebook" with "linkedin".</li>
+    </ul>
+    </li>
+    <li>Enjoy!</li>
+    </ol><h2>
+    <a name="to-do" class="anchor" href="#to-do"><span class="octicon octicon-link"></span></a>To do</h2>
+    
+    <ol>
+    <li>SpringBoard CSS, Bootstrap-grid-like app spring board.</li>
+    <li>Fix CSS gradients on mobile webkit devices.</li>
+    <li>Make it compile with LESS and grabing all overlapping Font Awesome and BrandColors brands.</li>
+    <li>Do all default iOS apps.</li>
+    </ol></article>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    
+    </div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
