@@ -85,18 +85,13 @@ body {
 .icon p { position: relative }
 .twitter-icon { background-color: #00acee }
 .facebook-icon p {
-    bottom: 0px;
+    bottom: -1px;
     right: 20px;
     text-align: right;
 }
 .icon-facebook { color: white }
 .facebook-icon {
-    background: -moz-linear-gradient(90deg,  #3b5998 0%, #9daccb 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#3b5998), color-stop(100%,#9daccb));
-    background: -webkit-linear-gradient(90deg,  #3b5998 0%,#9daccb 100%);
-    background: -o-linear-gradient(90deg,  #3b5998 0%,#9daccb 100%);
-    background: -ms-linear-gradient(90deg,  #3b5998 0%,#9daccb 100%);
-    background: linear-gradient(90deg,  #3b5998 0%,#9daccb 100%);
+background-color: #3b5998;
 }
 .phone-icon p { }
 .icon-phone { color: white }
